@@ -1,6 +1,7 @@
+#I wrote this to practice with dictionaries. Dec 19 2024.
+
 print("________________________")
 print("2024 HURRICANE SEASON")
-#to practice building and manipulating a dictionary
 
 hurricanes = {"ALBERTO": "tropical",
               "BERYL": "5",
