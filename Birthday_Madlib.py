@@ -1,3 +1,5 @@
+#This is the first program I ever scripted. I made it on August 16, 2024.
+
 age = input("How old are you? ")
 age = int(age)
 if age < 35:
