@@ -1,3 +1,4 @@
+#I made this to practice 2D collections. Dec 19 2024.
 #Test your knowledge!
 
 print("GIS QUIZ GAME")
