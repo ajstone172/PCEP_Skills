@@ -1,3 +1,5 @@
+#I wrote this to practice if-statements. Aug 31 2024.
+
 print("Hello! How are you feeling? \n Happy - Sad - Angry")
 mood = input("Type here: ")
 
