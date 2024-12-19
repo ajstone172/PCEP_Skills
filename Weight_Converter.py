@@ -1,3 +1,5 @@
+#I made this to practice if statements. Dec 12 2024.
+
 #Weight Converter
 
 weight = float(input("Enter a weight: "))
