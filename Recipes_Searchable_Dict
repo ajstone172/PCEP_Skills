@@ -25,5 +25,17 @@ recipes = {
 recipe_names = recipes.keys()
 print(f"Searchable recipes are: {recipe_names}")
 
-ingredients = recipes.values()
-print(f"All ingredients: {ingredients})
+def flatten_dict_of_sets(dict_of_sets):
+    flattened_set = set()
+    for key in dict_of_sets:
+        flattened_set.update(dict_of_sets[key])
+    return flattened_set
+
+
+ingredients = flatten_dict_of_sets(recipes)
+
+searched = input("Search for an ingredient: ")
+if searched in ingredients:
+    print(f"{searched} is an ingredient in one of my recipes")
+else:
+    print(f"{searched} is NOT an ingredient in one of my recipes.")
