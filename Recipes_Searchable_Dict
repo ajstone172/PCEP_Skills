@@ -1,0 +1,29 @@
+recipes = {
+    "sweet potato soup" : {"olive oil", "onion", "sweet potato", "apple", "garlic", "ginger",
+                              "coriander",
+                              "paprika",
+                              "apple cider vinegar",
+                              "milk",
+                              "broth"},
+    "fried rice" : {"rice",
+                       "onion",
+                       "carrot",
+                       "frozen pea",
+                       "egg",
+                       "chicken",
+                       "butter",
+                       "soy sauce",
+                       "sesame oil",
+                       "garlic",
+                       "sesame seeds"},
+    "arroz con leche" : {"rice", "water",
+                    "evaporated milk",
+                    "milk",
+                    "cinnamon",
+                    "sugar"}
+}
+recipe_names = recipes.keys()
+print(f"Searchable recipes are: {recipe_names}")
+
+ingredients = recipes.values()
+print(f"All ingredients: {ingredients})
