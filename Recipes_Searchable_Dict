@@ -39,3 +39,18 @@ if searched in ingredients:
     print(f"{searched} is an ingredient in one of my recipes")
 else:
     print(f"{searched} is NOT an ingredient in one of my recipes.")
+
+
+print(" - - - - ")
+
+found_in_sets = []
+for recipe_names, value_set in recipes.items():
+    if keyword in value_set:
+        found_in_sets.append(recipe_names)
+
+if found_in_sets:
+    print(f"The ingredient '{keyword}' was found in the following sets:")
+    for recipe_names in found_in_sets:
+        print(f"- {recipe_names}: {recipes[recipe_names]}")
+else:
+    print(f"The ingredient '{keyword}' was not found in any of the sets.")
