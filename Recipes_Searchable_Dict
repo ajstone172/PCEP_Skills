@@ -49,8 +49,8 @@ for recipe_names, value_set in recipes.items():
         found_in_sets.append(recipe_names)
 
 if found_in_sets:
-    print(f"The ingredient '{keyword}' was found in the following sets:")
+    print(f"The ingredient '{keyword}' was found in the following recipes:")
     for recipe_names in found_in_sets:
         print(f"- {recipe_names}: {recipes[recipe_names]}")
 else:
-    print(f"The ingredient '{keyword}' was not found in any of the sets.")
+    print(f"The ingredient '{keyword}' was not found in any of the recipes.")
